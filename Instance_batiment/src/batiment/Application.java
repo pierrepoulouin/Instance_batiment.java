@@ -9,19 +9,32 @@ package batiment;
 		
 		//Initialisation des variables 
 		
-		batimentPierre.materiaux = "Briques";
-		batimentPierre.nbEtages = 5;
-		batimentPierre.nbPieces = 3;
-		batimentPierre.typeChauffage = "charbon";
-		batimentPierre.cour = true;
-		batimentPierre.anneeCons = 1974;
-		batimentPierre.parking = false;
-		batimentPierre.accesBatiment = "interphone";
-		batimentPierre.cheminee = false;
-		batimentPierre.balcon = false;
-		batimentPierre.escalier = true;
-		batimentPierre.ascenseur = true;
-		batimentPierre.nbAscenseur = 1;
+		batimentPierre.getMateriaux();
+		batimentPierre.setMateriaux("Briques");
+		batimentPierre.getNbEtages();
+		batimentPierre.setNbEtages(5);
+		batimentPierre.getNbPieces();
+		batimentPierre.setNbPieces(3);
+		batimentPierre.getTypeChauffage();
+		batimentPierre.setTypeChauffage("charbon");
+		batimentPierre.isCour();
+		batimentPierre.setCour(false);
+		batimentPierre.getAnneeCons();
+		batimentPierre.setAnneeCons(1974);
+		batimentPierre.isParking();
+		batimentPierre.setParking(false);
+		batimentPierre.getAccesBatiment();
+		batimentPierre.setAccesBatiment("interphone");
+		batimentPierre.isCheminee();
+		batimentPierre.setCheminee(false);
+		batimentPierre.isBalcon();
+		batimentPierre.setBalcon(false);
+		batimentPierre.isEscalier();
+		batimentPierre.setEscalier(true);
+		batimentPierre.isAscenseur();
+		batimentPierre.setAscenseur(true);
+		batimentPierre.getNbAscenseur();
+		batimentPierre.setNbAscenseur(1);
 		
 		batimentPierre.construireBatiment();
 		
