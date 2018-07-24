@@ -9,7 +9,7 @@ package batiment;
 		
 		//Initialisation des variables 
 		
-		batimentPierre.materiaux = "Briques ";
+		batimentPierre.materiaux = "Briques";
 		batimentPierre.nbEtages = 5;
 		batimentPierre.nbPieces = 3;
 		batimentPierre.typeChauffage = "charbon";
