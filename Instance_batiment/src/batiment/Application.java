@@ -7,7 +7,9 @@ package batiment;
 		//Creation de l'instance batimentPierre de la classe Batiments
 		Batiments batimentPierre = new Batiments();
 		
-		//Initialisation des variables 
+		/*Initialisation des variables
+		 * Utilisation des methodes get/set
+		 */
 		
 		batimentPierre.getMateriaux();
 		batimentPierre.setMateriaux("Briques");
@@ -36,6 +38,7 @@ package batiment;
 		batimentPierre.getNbAscenseur();
 		batimentPierre.setNbAscenseur(1);
 		
+		//On appelle la methode construireBatiment de la Class Batiment
 		batimentPierre.construireBatiment();
 		
 		
